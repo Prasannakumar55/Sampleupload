@@ -1,0 +1,16 @@
+
+/* Define the styles for the loading symbol */
+.loading {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  border: 2px solid rgb(71, 255, 135);
+  background-image: linear-gradient(tomato, orange);
+  animation: spin 1s ease-in-out infinite;
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
